@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+
+  width: 100wh;
+  height: 90vh;
+  color: #fff;
+  background-attachment: fixed;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+/*
+ * Formatting the header area
+ */
+header {
+  background-color: #001055;
+  height: 35px;
+  width: 100%;
+  opacity: .9;
+  margin-bottom: 10px;
+}
+header h1.logo {
+  margin: 10;
+  font-size: 1.7em;
+  color: #fff;
+  position: relative;
+  bottom: 52px;
+  float: left;
+}
+header h1.logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+/*
+ * Centering the body content
+ */
+.container {
+  position: sticky;
+  top: 260px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 1200px;
+}
+div.home {
+  text-indent: 60px;
+  padding: 10px 0 30px 0;
+  background-color: #001055;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+div.block {
+  text-indent: 75px;
+}
+img.camb1 {
+  position: relative;
+  float: right;
+  top: -88px;
+  left: -80px;
+}
+img.vr {
+  position: relative;
+  float: right;
+  top: -88px;
+  left: -90px;
+}
+img.camb2 {
+  position: relative;
+  float: right;
+  top: -88px;
+  left: -100px;
+}
+h2 {
+  font-size: 3em;
+  margin-top: -40px;
+  text-align: center;
+  letter-spacing: -2px;
+}
+h3 {
+  font-size: 1.7em;
+  font-weight: 100;
+  margin-top: 30px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #999;
+}
+.menu {
+  float: right;
+  margin-top: 8px;
+  position: relative;
+  bottom: 35px;
+}
+.menu li {
+  display: inline;
+}
+.menu li + li {
+  margin-left: 35px;
+}
+.menu li a {
+  color: #444;
+  text-decoration: none;
+}
+.footnote {
+  position: relative;
+  top: 280px;
+}

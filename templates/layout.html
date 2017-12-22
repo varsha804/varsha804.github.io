@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Varsha's Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<header>
+	<div class="container">
+		<h1 class="logo">Varsha's Page</h1>
+		<strong><nav>
+			<ul class="menu">
+				<li><a href="{{ url_for('index') }}">Home</a></li>
+            	<li><a href="{{ url_for('resume') }}">Resume</a></li>
+			</ul>
+		</nav></strong>
+	</div>
+</header>
+</header>
+<body>
+<div class="container">
+	{% block content %}
+	    <p>Default content to be displayed</p>
+	{% endblock content %}
+</div>
+</body>
+</html>
+

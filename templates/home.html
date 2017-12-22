@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	</head>
+	<body>
+    {% extends 'layout.html' %}
+    {% block content %}
+      <div class="home">
+        <h1>Hi! I'm Varsha. Here's some stuff about me:</h1>
+        <div class="block">
+        	<img class="camb1" src="static/img/camb1.png" style="width:140px;height:180px;" border="5" />
+        	<img class="vr" src="static/img/vr.png" style="width:140px;height:180px;" border="5" />
+        	<img class="camb2" src="static/img/camb2.png" style="width:140px;height:180px;" border="5" />
+	        <li>I go to UIUC</li>
+	        <li>I study CS and Stats</li>
+	        <li>I love to sing/listen to/make music</li>
+	        <li>I love <a href="https://www.youtube.com/watch?v=-Ya3FWotVqY" style="color:white">The Office</a></li>
+	       </div>
+      </div>
+      <body>
+        <div class="footnote">
+            <p style="position: absolute; bottom: 0; width:100%; text-align: right"> Powered by Flask.
+            </p>
+        </div>
+      </body>
+    {% endblock %}
+	</body>
+</html>
